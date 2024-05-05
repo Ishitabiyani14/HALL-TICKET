@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Examination Management System</h1>
+        <div id="loginForm">
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">Login</button>
+        </div>
+        <div id="examForm" style="display: none;">
+            <h2>Create Exam</h2>
+            <input type="text" id="examName" placeholder="Exam Name">
+            <input type="date" id="examDate" placeholder="Exam Date">
+            <button onclick="createExam()">Create Exam</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
